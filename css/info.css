@@ -1,0 +1,49 @@
+
+#info{
+	background: #323429;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+}
+
+#info h2{
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#info .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-mueble{
+	margin:20px;
+}
+
+.info-mueble img{
+	width: 180px;
+	height: 180px;
+	border-radius: 20% 0%;
+}
+
+/*Responsive*/
+
+/*Dispositivo movil*/
+@media (min-width:480px) {
+	.info-mueble{
+		width: 40%;
+	}
+}
+/*Tablet*/
+@media (min-width:768px) {
+	.info-mueble{
+		width: 40%;
+	}
+}
+/*Escritorio*/
+@media (min-width:1024px) {
+	.info-mueble{
+		width: auto;
+	}
+}

@@ -1,0 +1,46 @@
+#ubicacion{
+	background: #fff;
+	color: #323429;
+	text-align: center;
+	padding: 50px;
+}
+
+#ubicacion h3{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#ubicacion .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	padding: 35px;
+}
+
+#ubicacion .contenedor iframe{
+	width: 45%;
+	border: 5px solid #ccc;
+}
+
+#ubicacion .contenedor p{
+	padding: 40px;
+	width: 50%;
+	text-align: left;
+}
+/*Responsive*/
+
+/*Dispositivo movil*/
+@media (min-width:420px) {
+	iframe {
+		height: 300px;
+	}
+}
+/*Tablet*/
+@media (min-width:768px) {
+
+}
+/*Escritorio*/
+@media (min-width:1024px) {
+
+}
